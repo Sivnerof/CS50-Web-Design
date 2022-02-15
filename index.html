@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" type="image/x-icon" href="./assets/google-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header Section Links (login, about, etc.) -->
+        <div class="header">
+            <div id="header-left">
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a> 
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            </div>
+            <div id="header-right">
+                <a href="https://www.google.com/gmail/about/">GMail</a>
+                <a href="./image-search.html">Images</a>
+                <a href="https://about.google/products/">!</a>
+                <a href="https://accounts.google.com/signin">Log In</a>
+            </div>
+        </div>
+
+        <!-- Google Logo -->
+        <div class="logo">
+            <img src="./assets/googlelogo.png">
+        </div>
+        
+        <!-- Search Bar and Feeling Lucky Button -->
+        <div class="search-container">
+            <!-- Form Wraps Around Search/Button Divs -->
+            <form action="https://www.google.com/search">
+            <div id="search-bar">
+                <input type="text" name="q" autocomplete="off">
+            </div>
+            <div id="search-buttons">
+                <input type="submit" value="Google Search" name="btnK">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+            </div>
+            </form>
+        </div>
+
+        <!-- Footer, Carbon Neutral Pledge plus other links -->
+        <div class="footer">
+            <div class="footer-left">
+                <a href="https://ads.google.com/home">Advertising</a>
+                <a href="https://smallbusiness.withgoogle.com">Business</a>
+                <a href="https://www.google.com/search/howsearchworks">How Search Works</a>
+            </div>
+            <div class="footer-middle">
+                <a href="https://sustainability.google/commitments">Carbon Neutral Since 2007</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://policies.google.com/privacy">Privacy</a>
+                <a href="https://policies.google.com/terms">Terms</a>
+                <a href="./advanced-search.html">Advanced Search</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--
+Your website should have at least three pages: 
+    One for Google Search. 
+    One for Google Image Search. 
+    One for Google Advanced Search.
+    
+On the Google Search page: 
+    there should be links in the upper-right of the page, 
+    to go to Image Search or Advanced Search. 
+    
+On each of the other two pages: 
+    there should be a link in the upper-right to go back to Google Search.
+
+On the Google Search page: 
+    the user should be able to type in a query, 
+    click “Google Search”, and be taken to the Google search results for that page.
+    Like Google’s own, your search bar should be centered with rounded corners. 
+    The search button should also be centered, 
+    and should be beneath the search bar.
+
+On the Google Image Search page: 
+    The user should be able to type in a query, 
+    click a search button, 
+    and be taken to the Google Image search results for that page.
+
+On the Google Advanced Search page:
+    the user should be able to provide input for the following four fields...
+    Find pages with… “all these words:”
+    Find pages with… “this exact word or phrase:”
+    Find pages with… “any of these words:”
+    Find pages with… “none of these words:”
+
+Like Google’s own Advanced Search page: 
+    the four options should be stacked vertically, 
+    and all of the text fields should be left aligned.
+    Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
+    When the “Advanced Search” button is clicked, 
+    the user should be taken to the search results page for their given query.
+
+Add an “I’m Feeling Lucky” button to the main Google Search page. 
+Consistent with Google’s own behavior, 
+clicking this link should take users directly to the first Google search result for the query, 
+bypassing the normal results page.
+    
+You may encounter a redirect notice when using the “I’m Feeling Lucky” button. 
+Not to worry! This is an expected consequence of a security feature implemented by Google.
+The CSS you write should resemble Google’s own aesthetics.
+
+
+Any <input> element (whether its type is text, submit, number, or something else entirely) 
+can have name and value attributes that will become GET parameters when a form is submitted.
+    
+To include an input field in a form that users cannot see or modify, you can use a “hidden” input field.
+-->
+</html>
