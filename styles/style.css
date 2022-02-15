@@ -2,4 +2,39 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, arial, sans-serif;
+}
+
+a {
+    color: black;
+    opacity: 0.7;
+}
+
+a:visited {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#header-left a, #header-right a {
+   padding: 5px;
+}
+
+#login-anchor-button {
+    background-color: #0DA0D1;
+    color: white;
+    border-radius: 5px;
 }
