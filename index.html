@@ -7,10 +7,10 @@
     <title>Google</title>
     <link rel="icon" type="image/x-icon" href="./assets/google-icon.png">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
-        
         <!-- Header Section Links (login, about, etc.) -->
         <div class="header">
             <div id="header-left">
@@ -20,7 +20,7 @@
             <div id="header-right">
                 <a href="https://www.google.com/gmail/about/">GMail</a>
                 <a href="./pages/image-search.html">Images</a>
-                <a href="https://about.google/products/">!</a>
+                <a href="https://about.google/products/"><img src="./assets/dots-16-px.png" alt="menu icon"></a>
                 <a href="https://accounts.google.com/signin">Log In</a>
             </div>
         </div>
@@ -35,6 +35,7 @@
             <!-- Form Wraps Around Search/Button Divs -->
             <form action="https://www.google.com/search">
             <div id="search-bar">
+                <img src="./assets/search.png" alt="magnifying glass">
                 <input type="text" name="q" autocomplete="off" spellcheck="false">
             </div>
             <div id="search-buttons">
@@ -65,6 +66,8 @@
 </html>
 
 <!--
+<a href="https://www.flaticon.com/free-icons/dot" title="dot icons">Dot icons created by Freepik - Flaticon</a>
+
     Like Google’s own, your search bar should be centered with rounded corners. 
     The search button should also be centered, 
     and should be beneath the search bar.
