@@ -25,25 +25,27 @@
             </div>
         </div>
 
-        <!-- Google Logo -->
-        <div class="logo">
-            <img src="./assets/googlelogo.png">
-        </div>
-        
-        <!-- Search Bar and Feeling Lucky Button -->
-        <div class="search-container">
-            <!-- Form Wraps Around Search/Button Divs -->
-            <form action="https://www.google.com/search">
-            <div id="search-bar">
-                <img src="./assets/search.png" alt="magnifying glass">
-                <input type="text" name="q" autocomplete="off" spellcheck="false">
+        <main class="main-container">
+            <!-- Google Logo -->
+            <div class="logo">
+                <img src="./assets/googlelogo.png">
             </div>
-            <div id="search-buttons">
-                <input type="submit" value="Google Search" name="btnK">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+            
+            <!-- Search Bar and Feeling Lucky Button -->
+            <div class="search-container">
+                <!-- Form Wraps Around Search/Button Divs -->
+                <form action="https://www.google.com/search">
+                <div id="search-bar">
+                    <img src="./assets/search.png" alt="magnifying glass">
+                    <input type="text" name="q" autocomplete="off" spellcheck="false">
+                </div>
+                <div id="search-buttons">
+                    <input type="submit" value="Google Search" name="btnK">
+                    <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                </div>
+                </form>
             </div>
-            </form>
-        </div>
+        </main>
 
         <!-- Footer, Carbon Neutral Pledge plus other links -->
         <div class="footer">
@@ -78,10 +80,5 @@ Like Google’s own Advanced Search page:
     Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
     When the “Advanced Search” button is clicked, 
     the user should be taken to the search results page for their given query.
-
-Any <input> element (whether its type is text, submit, number, or something else entirely) 
-can have name and value attributes that will become GET parameters when a form is submitted.
-    
-To include an input field in a form that users cannot see or modify, you can use a “hidden” input field.
 -->
 </html>
