@@ -60,6 +60,33 @@ a:visited {
     justify-content: center;
 }
 
+#search-form {
+    width: 50%;
+}
+
+#search-bar {
+    width: 100%;
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#search-bar:hover {
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+#search-bar input {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 90%;
+}
+
 .footer {
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-left a, .footer-right a {
+    padding: 10px;
 }
