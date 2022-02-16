@@ -82,6 +82,18 @@ a:visited {
     width: 90%;
 }
 
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#search-buttons input {
+    padding: 10px;
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
