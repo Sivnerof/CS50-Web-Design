@@ -92,6 +92,7 @@ a:visited {
     padding: 10px;
     background-color: #F8F9FA;
     border: 1px solid #F8F9FA;
+    cursor: pointer;
 }
 
 .footer {

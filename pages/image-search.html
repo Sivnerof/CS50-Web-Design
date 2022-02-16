@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="icon" type="image/x-icon" href="./assets/google-icon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/images-style.css">
 </head>
 <body>
     <div class="container">
@@ -21,25 +21,27 @@
             </div>
         </div>
 
-        <!-- Google Logo -->
-        <div class="logo">
-            <img src="../assets/googlelogo.png">
-            <span>images</span>
-        </div>
+        <main class="main-container">
+            <!-- Google Logo -->
+            <div class="logo">
+                <img src="../assets/googlelogo.png">
+                <span>images</span>
+            </div>
 
-        <!-- Image Search Bar -->
-        <div class="search-container">
-            <!-- Form Wraps Around Search/Button Divs -->
-            <form method="get" action="https://www.google.com/images">
-            <div id="search-bar">
-                <img src="../assets/search.png" alt="magnifying glass">
-                <input type="text" name="q" autocomplete="off" spellcheck="false">
+            <!-- Image Search Bar -->
+            <div class="search-container">
+                <!-- Form Wraps Around Search/Button Divs -->
+                <form id="search-form" method="get" action="https://www.google.com/images">
+                <div id="search-bar">
+                    <img src="../assets/search.png" alt="magnifying glass">
+                    <input type="text" name="q" autocomplete="off" spellcheck="false">
+                </div>
+                <div id="search-buttons">
+                    <input type="submit" value="Google Search">
+                </div>
+                </form>
             </div>
-            <div id="search-buttons">
-                <input type="submit" value="Google Search">
-            </div>
-            </form>
-        </div>
+        </main>
 
         <!-- Footer Links -->
         <div class="footer">
